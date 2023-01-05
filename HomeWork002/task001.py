@@ -18,5 +18,11 @@ def listProductNumbers(n):
 
     return list
 
+    # так сделал преподаватель
+    # f = 1
+    # for i in range(1, n + 1):
+    #     f = i * f
+    #     print(f, end = " ")
+
 
 print(f"Набор произведений чисел от 1 до {n} = {listProductNumbers(n)}")
