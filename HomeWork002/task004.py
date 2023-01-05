@@ -12,4 +12,7 @@ def calculateSumEvenNumbers(n):
     return sum
 
 
+# или так
+# sum = sum(range(2, n + 1, 2))
+
 print(f"Сумма четных чисел от 1 до {n} = {calculateSumEvenNumbers(n)}")
