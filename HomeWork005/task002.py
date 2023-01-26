@@ -51,6 +51,8 @@ def game():
             win = gameWin(faild, gamer)
             if gamer == "X":
                 gamer = "O"
+            else:
+                gamer = "X"
 
 
 game()
