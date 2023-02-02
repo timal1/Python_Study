@@ -7,5 +7,6 @@
 from functools import reduce
 
 number = [int(s) for s in input("Введите число ") if s.isdigit()]
-sumMembersNumber = reduce(lambda x, y: x+y, number)
+# sumMembersNumber = reduce(lambda x, y: x+y, number)
+sumMembersNumber = sum(number)
 print(sumMembersNumber)
