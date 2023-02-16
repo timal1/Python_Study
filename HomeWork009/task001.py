@@ -6,7 +6,11 @@
 
 import telebot
 
-bot = telebot.TeleBot("6206219234:AAGwZAQUyVpCMmsa9h0g5XAobbydgfFJnmo")
+with open('TOKEN.txt', 'r', encoding='utf-8') as file:
+    token = file.read()
+
+
+bot = telebot.TeleBot(token)
 
 
 @bot.message_handler(commands=['start'])
